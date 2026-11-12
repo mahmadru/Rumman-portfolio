@@ -1,6 +1,6 @@
 # Mohammad Rumman — personal portfolio
 
-A static React + TypeScript portfolio built from `Rumman_CV.pdf`. Vite, Tailwind CSS v4, Framer Motion, Lucide, and shadcn-compatible components. No backend or environment variables required.
+A static React + TypeScript portfolio updated from `Rumman_CV.docx`, with a PDF exported using Microsoft Word. Vite, Tailwind CSS v4, Framer Motion, Lucide, and shadcn-compatible components. No backend or environment variables required.
 
 ## Run locally
 
@@ -33,7 +33,7 @@ Vite's base is `/Rumman-portfolio/`. Change `base` in `vite.config.ts` if renami
 - `src/components/ui/button.tsx`: shadcn-style Slot/CVA button.
 - `src/index.css`: global styles, Tailwind import and responsive design tokens.
 - `components.json`: shadcn aliases; `@` maps to `src` in both Vite and TypeScript.
-- `public/Rumman_CV.pdf`: downloadable original resume.
+- `public/Rumman_CV.pdf`: downloadable current resume, converted from the root `Rumman_CV.docx`.
 
 The logical `/components/ui` path lives at `src/components/ui`, matching `@/components/ui`. Keeping reusable UI here makes shadcn CLI additions and imports consistent. Tailwind and TypeScript are already configured; no separate setup is needed. Optional additional shadcn components: `npx shadcn@latest add <component>`.
 
